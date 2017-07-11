@@ -1,0 +1,52 @@
+{
+  "name": "osanywhereweather-api-server",
+  "description": "API-server for your weatherstation",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.1.3"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "micro"
+  },
+  "keywords": [
+    "microservice",
+    "micro",
+    "osanywhereweather"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zrrrzzt/osanywhereweather-api-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/osanywhereweather-api-server/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/osanywhereweather-api-server",
+  "devDependencies": {
+    "ava": "0.19.1",
+    "axios": "0.16.2",
+    "coveralls": "2.13.1",
+    "nsp": "2.6.3",
+    "nyc": "11.0.2",
+    "standard": "10.0.2",
+    "test-listen": "1.0.2"
+  },
+  "dependencies": {
+    "marked": "0.3.6",
+    "micro": "7.3.3",
+    "micro-match": "0.1.2",
+    "osanywhereweather": "3.0.0"
+  }
+}
