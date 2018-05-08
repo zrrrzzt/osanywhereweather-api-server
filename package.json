@@ -42,7 +42,7 @@
     "nsp": "2.8.1",
     "nyc": "11.7.1",
     "standard": "11.0.1",
-    "test-listen": "1.0.2"
+    "test-listen": "1.1.0"
   },
   "dependencies": {
     "marked": "0.3.15",
