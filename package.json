@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/osanywhereweather-api-server",
   "devDependencies": {
-    "ava": "2.4.0",
+    "ava": "3.0.0",
     "axios": "0.19.1",
     "coveralls": "3.0.9",
     "nsp": "3.2.1",
