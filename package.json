@@ -45,7 +45,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "marked": "2.0.1",
+    "marked": "2.0.2",
     "micro": "9.3.4",
     "micro-match": "1.0.2",
     "osanywhereweather": "3.0.2"
