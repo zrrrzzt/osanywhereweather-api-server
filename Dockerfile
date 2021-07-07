@@ -1,5 +1,5 @@
 # Setting the base to nodej 8.1.3
-FROM node:16.4.1-alpine@sha256:d74699a5c7f53d30afa3c0dec7f963c52dde077ffd7c88c77b7de350abcbe43a
+FROM node:16.4.1-alpine@sha256:20127b9ec087e27c91145c6d7438a3272d34e3512073118bbe0ed4ebb8546620
 
 #### Begin setup ####
 
