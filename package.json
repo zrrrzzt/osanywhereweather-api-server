@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "marked": "4.0.17",
-    "micro": "9.3.4",
+    "micro": "9.4.1",
     "micro-match": "1.0.2",
     "osanywhereweather": "3.0.2"
   }
